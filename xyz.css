@@ -188,7 +188,7 @@
 
 
 
-
+/* 
 @media screen and (max-device-width: 500px) {
     * {
         margin: 0;
@@ -206,7 +206,7 @@
 
     .back video {
         /* position: absolute; */
-        top: 0;
+       /* top: 0;
         left: 0;
         object-fit: initial;
         width: 100%;
@@ -218,7 +218,7 @@
         position: relative;
         top: 29%;
         /* left: 510px; */
-        font-size: 470%;
+       /* font-size: 470%;
         color: rgb(255, 255, 255);
         text-align: center;
     }
@@ -227,7 +227,7 @@
         position: relative;
         top: 29%;
         /* left: 510px; */
-        font-size: 250%;
+      /*  font-size: 250%;
         color: rgb(255, 255, 255);
         text-align: center;
     }
@@ -237,7 +237,7 @@
         left: 0;
         width: 100%;
         /* background-size: cover;
-    background-attachment: fixed; */
+    background-attachment: fixed; 
     }
 
     .image img {
@@ -254,18 +254,18 @@
     .form {
         background-color: rgba(0, 0, 0, 0.4);
         /* background-color: transparent; */
-        width: 35%;
+      /*  width: 35%;
         height: 92%;
         border-radius: 30px;
         padding: 50px 50px 70px;
         /* background: #131419; */
         /* background: transparent; */
-        border-radius: 20px;
+    /*    border-radius: 20px;
         text-align: center;
         /* box-shadow: -5px 5px 10px #fc00ff,
      5px -5px 10px #00dbde; */
         /* margin : -800px 0 0px 550px; */
-    }
+ /*   }
 
     .form h2 {
         color: #ffffff;
@@ -299,14 +299,14 @@
         /* border-top: 1px solid white;
     border-left: none; */
         /*border-radius: 50px; */
-        outline: none;
+   /*     outline: none;
         /* padding: 15px; */
-        padding-bottom: 5px;
+     /*   padding-bottom: 5px;
         color: #2ff7f7;
         font-size: 19px;
         /* box-shadow: inset -2px -2px 6px rgba(0, 0, 0, 0.1),
         inset 5px 5px 8px rgba(0, 0, 0, 0.8); */
-    }
+    /*}
 
     .form .input #btn input {
         color: white;
@@ -332,6 +332,5 @@
     .form .input .inputbox input[type="submit"]:active {
         /* color: #006c9; */
         /* box-shadow: inset -2px -2px 6px rgba(255, 255, 255, 0.1),
-        inset 2px 2px 6px rgba(0, 0, 0, 0.8); */
-    }
-}
+        inset 2px 2px 6px rgba(0, 0, 0, 0.8); 
+    }*/
