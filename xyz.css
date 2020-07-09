@@ -135,7 +135,7 @@
 
 
 /* Samsung Mobile */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .back {
       width: 100%;
       height: 100vh;
