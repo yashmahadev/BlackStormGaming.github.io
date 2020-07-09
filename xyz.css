@@ -171,4 +171,17 @@
         color: rgb(255, 255, 255);
         text-align: center;
     }
+    .image {
+        position: relative;
+        top: 712px;
+        left: 0;
+        width: 100%;
+        /* background-size: cover;
+    background-attachment: fixed; */
+    }
+
+    .image img {
+        width: 100%;
+        height: 1000px;
+    }
 }
