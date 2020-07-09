@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // var mail = "yashmahadevwala@gmail.com"
+        // document.write(mail + "<br><br>");
+        // var m = mail.split('@').reverse();
+        // document.write(m);
+        // document.write("<br><br>");
+        // // if (mail.split() == '@') {
+        // //     document.write("Hello");
+        // // }
+        // // var a = []
+        // var a = m.slice(0,7);
+        // // var a = m.slice(0,7);
+        // document.write(a + "<br>");
+        // // document.write(m);
+        // // if (m == "gmail.com") {
+        // //     document.write("Hello");
+        // // }
+        // // if (mail.split('@')) {
+        // //     var b = mail.split('');
+        // //     document.write(b);
+        // //     if (b == '@') {
+        // //         var c = 
+        // //     }
+        // // }
+        // var c;
+        // for (let i = 0; i < mail.length; i++) {
+        //     // const element = mail[i];
+            
+        //     if (mail[i] == '@') {
+        //         var j = i+1;
+        //         while (j == 8+i) {
+        //             c += mail[i];
+        //         }
+                    
+        //         }
+        //     }
+        
+        // document.write(c);
+        function ValidateEmail("yashmahadevwala@gmail.com")
+        {
+        var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if(inputText.value.match(mailformat))
+        {
+        document.form1.text1.focus();
+        return true;
+        }
+        else
+        {
+        alert("You have entered an invalid email address!");
+        document.form1.text1.focus();
+        return false;
+        }
+        }
+        ValidateEmail();
+    </script>
+    
+</body>
+</html>
