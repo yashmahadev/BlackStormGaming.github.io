@@ -197,7 +197,7 @@
 
     .back {
         width: 100%;
-        height: 100vh;
+        height: 200vh;
         position: absolute;
         object-fit: initial;
         overflow: hidden;
