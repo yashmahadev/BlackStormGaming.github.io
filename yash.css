@@ -190,7 +190,7 @@
 
 
 /*max width 480*/
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 481px) {
     .container {
         width: 100%;
         height: auto;
