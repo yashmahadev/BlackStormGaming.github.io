@@ -199,7 +199,7 @@
     }
 
     .back {
-        background-color: red;
+        /* background-color: red; */
         width: 100%;
         height: auto;
     }
@@ -208,7 +208,6 @@
         font-size: 50px;
         text-align: center;
         padding-top: 30px;
-        /* display: none; */
     }
 
     .back video {
