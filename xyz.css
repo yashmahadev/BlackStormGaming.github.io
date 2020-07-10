@@ -242,7 +242,7 @@
 
     .image {
         position: relative;
-        top: 175px;
+        top: 155px;
         left: 0;
         width: 510px;
         /* background-size: cover;
@@ -251,7 +251,7 @@
 
     .image img {
         width: 510px;
-        height: 725px;
+        height: 775px;
     }
 
     .image .form {
