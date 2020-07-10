@@ -204,7 +204,7 @@
 
 @media screen and (max-width : 480px){
     .back {
-        width: 510px;
+        width: 512px;
         /* height: auto; */
         position: absolute;
         object-fit: cover;
@@ -242,9 +242,9 @@
 
     .image {
         position: relative;
-        top: 155px;
+        top: 120px;
         left: 0;
-        width: 510px;
+        width: 512px;
         /* background-size: cover;
     background-attachment: fixed; */
     }
