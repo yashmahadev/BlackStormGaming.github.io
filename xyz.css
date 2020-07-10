@@ -128,7 +128,7 @@
 
 
 
-@media screen and (max-width : 768px){
+@media screen and (min-width : 480px) and (max-width : 768px) {
     .back {
         width: 100%;
         /* height: auto; */
