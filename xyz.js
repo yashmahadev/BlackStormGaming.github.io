@@ -5,7 +5,6 @@ function msg() {
   var P3 = document.getElementById("P3").value;
   var P4 = document.getElementById("P4").value;
   var mail = document.getElementById("Email").value;
-  var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
   if (C == "") {
     alert("Enter Valid Crew Name !");
     document.form1.Crew.focus();
