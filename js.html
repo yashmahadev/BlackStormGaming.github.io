@@ -4,12 +4,12 @@
 <head>
   <title>log in</title>
   <link rel="stylesheet" type="text/css" href="js.css" />
-  <!-- <script type="text/javascript" src="xyz.js"></script> -->
+  <script type="text/javascript" src="xyz.js"></script>
 </head>
 
 <body>
   <div class="form">
-    <form action="reg.php" onsubmit="return msg()" name="form1" method="POST">
+    <form action="http://localhost:8080/pubg/reg.php" onsubmit="return msg()" name="form1" method="POST">
       <h2>Registration Form</h2>
       <div class="input">
         <div class="inputbox">
@@ -18,19 +18,19 @@
         </div>
         <div class="inputbox">
           <label>Player 1 ID</label>
-          <input class="in" type="text" name="P1" placeholder="Player 1 ID" id="P1" />
+          <input class="in" type="text" name="Player1" placeholder="Player 1 ID" id="P1" />
         </div>
         <div class="inputbox">
           <label>Player 2 ID</label>
-          <input class="in" type="text" name="P2" placeholder="Player 2 ID" id="P2" />
+          <input class="in" type="text" name="Player2" placeholder="Player 2 ID" id="P2" />
         </div>
         <div class="inputbox">
           <label>Player 3 ID</label>
-          <input class="in" type="text" name="P3" placeholder="Player 3 ID" id="P3" />
+          <input class="in" type="text" name="Player3" placeholder="Player 3 ID" id="P3" />
         </div>
         <div class="inputbox">
           <label>Player 4 ID</label>
-          <input class="in" type="text" name="P4" placeholder="Player 4 ID" id="P4" />
+          <input class="in" type="text" name="Player4" placeholder="Player 4 ID" id="P4" />
         </div>
         <div class="inputbox">
           <label>Email</label>
@@ -43,6 +43,8 @@
     </form>
   </div>
 </body>
+
+
 
 </html>
 
